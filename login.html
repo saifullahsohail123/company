@@ -1,0 +1,125 @@
+<?php include("backend.php"); ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>My First Full Project</title>
+    <title>Sign Up</title>
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+
+    <nav class="navbar navbar-expand-md ">
+
+      <a class="navbar-brand" href="index.html"><img alt="" class="ml-5" src="VMA LOGO.png"></a>
+
+      <button class="navbar-toggler text-dark" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+        <ul class=" navbar navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signup.html">SIGNUP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">LOGIN</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="signin-page">
+
+      <div class="container-fluid">
+
+        <div class="row p-3">
+          <div class="col-sm-8 py-3">
+            <div class="text-center">
+              <h1 class="page-text">IT’S TIME TO
+                                                                                              MAKE A CHANGE</h1>
+            </div>
+          </div>
+          <div class="col-sm-4 py-3 form-background">
+
+            <div class="container">
+              <form action="backend.php" class="form-group" method="post">
+
+                <img alt="image" class="img-fluid rounded-circle mx-auto d-block mt-2" src="dummi-image.jpg">
+
+                <select class="form-control mt-2" name="field">
+
+                  <option>SIGNUP AS</option>
+                  <option value="driver">DRIVER</option>
+                  <option value="mechanic">MECHANIC</option>
+
+                </select>
+
+                <input class="form-control mt-2" id="userName" name="username" placeholder="USER NAME" type="text">
+                <div id="userName_error"></div>
+
+                <input class="form-control mt-2" id="pwd" name="password" placeholder="Password" type="password">
+                <div id="password_error"></div>
+
+                <input class="form-control mt-2" id="email" name="email" placeholder="Email Address" type="email">
+                <div id="email_error"></div>
+
+                <button class="btn mt-2 form-control text-light " id="signup" style="background-color:#00574B" type="submit">SIGN IN</button>
+
+                <input class="form-check-input mt-2 ml-2" type="checkbox">
+                <p class="text-light ml-5" style="background-color:#008577">Remember me.</p>
+                <br>
+                <p class="ml-5" style = "font-style:italic; color:#ffffff ;background-color:#008577">Forgot your Password?</p>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="footer">
+
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-lg-4">
+            <h1>ABOUT US</h1>
+            <p>We accelerate our vision and collective ability to pursue the platform opportunity and leapfrog our region into the digital future.</p>
+          </div>
+          <div class="col-md-4 col-sm-12 col-lg-4">
+            <h1>CONTACT US</h1>
+            <p>03025469163</p>
+          </div>
+          <div class="col-md-4 col-sn-12 col-lg-4">
+            <h1>TERMS & CONDITIONS</h1>
+            <p>We accelerate our vision and collective ability to pursue the platform opportunity and leapfrog our region into the digital future.</p>
+          </div>
+
+        </div>
+
+      </div>
+      <hr>
+      <div class="text-center"><h1>COPYRIGHT RESERVED</h1></div>
+
+    </div>
+
+  </body>
+
+</html>

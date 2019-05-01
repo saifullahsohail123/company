@@ -1,0 +1,153 @@
+*{
+
+margin: 0%;
+padding: 0%;
+letter-spacing: 2px;
+word-spacing: 20px;
+background-color: lightgray;
+color: #008577;
+
+}
+
+.navbar{
+
+background-color: lightgray;
+color: #008577;
+
+}
+
+.navbar a{
+
+text-decoration: none;
+color: #008577;
+letter-spacing: 2px;
+word-spacing: 20px;
+
+
+}
+
+
+.navbar a:hover{
+
+font-size: 50px;
+color: red;
+}
+
+.navbar a :active{
+
+color: indigo
+
+}
+
+hr{
+
+color:#008577;
+height: 5px;
+
+
+}
+
+.form-background{
+
+  background-color: #008577;
+}
+
+.navbar a img {
+
+width: 70px;
+height: 70px;
+
+
+}
+
+#about h1{
+
+font-size: 80px;
+font-family: sans-serif;
+font-weight: bold;
+
+}
+
+#about h3{
+
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: bold;
+  
+  }
+
+  
+#about p{
+
+  font-size: 20px;
+  font-family: sans-serif;
+ 
+  
+  }
+
+  .button{
+
+
+    background-color: #00574B;
+    text-transform: uppercase;
+    border-radius: 15px;
+    color: #008577;
+    font-weight: bold;
+    
+  }
+
+  hr{
+    background: #00574B;
+    font-weight: bold;
+  }
+
+  .card{
+background-color:#00574B;
+color: #ffffff;
+text-align: center;
+
+
+
+  }
+
+.card-body{
+
+  background-color: #00574B;
+  color: #ffffff;
+
+}
+
+.card-title{
+
+  background-color: #00574B;
+  color: #ffffff;
+
+}
+
+.card-text{
+  background-color: #00574B;
+  color: #ffffff;
+
+
+
+}
+
+form{
+
+background-color: #008577;
+color: #008577;
+
+}
+.container{
+
+  background-color: #008577;
+  
+
+}
+
+ 
+
+
+
+
+  
